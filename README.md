@@ -1,11 +1,15 @@
-# *Q-Learning*
+# *Algoritma Q-Learning*
 
 ## *Kelompok 7*
+## Anggota Kelompok
 
-Ikbal Dzakwan (234311043)
-Mukti Ali Mudlofar (234311046)
-Rara Aliviana Gumaranti (234311050)
-Rian Cahyo Anggoro (234311052)
+| Nama                       | NIM         |
+|---------------------------|-------------|
+| Ikbal Dzakwan             | 234311043   |
+| Mukti Ali Mudlofar        | 234311046   |
+| Rara Aliviana Gumaranti   | 234311050   |
+| Rian Cahyo Anggoro        | 234311052   |
+
 
 ---
 
