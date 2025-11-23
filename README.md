@@ -57,11 +57,11 @@ Seberapa penting reward masa depan.
 
 ---
 
-## *Rumus Q-Learning (Bellman Update)*
+## Rumus Q-Learning (Bellman Update)
 
-[
-Q(s, a) \leftarrow Q(s, a) + \alpha (r + \gamma \max Q(s', a') - Q(s, a))
-]
+$$
+Q(s, a) \leftarrow Q(s, a) + \alpha \big( r + \gamma \max_{a'} Q(s', a') - Q(s, a) \big)
+$$
 
 ---
 
