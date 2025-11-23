@@ -57,7 +57,7 @@ Seberapa penting reward masa depan.
 
 ---
 
-## Rumus Q-Learning (Bellman Update)
+## Rumus Q-Learning 
 
 $$
 Q(s, a) \leftarrow Q(s, a) + \alpha \big( r + \gamma \max_{a'} Q(s', a') - Q(s, a) \big)
@@ -74,11 +74,11 @@ Diperbarui terus dengan pendekatan *Temporal Difference Learning (TD-Learning)*.
 
 ## *Cost Function*
 
-Menggunakan *TD Error*:
+Menggunakan *Temporal Difference (TD) Error*:
 
-[
-TD = r + \gamma \max Q(s',a') - Q(s,a)
-]
+$$
+TD = r + \gamma \max_{a'} Q(s', a') - Q(s, a)
+$$
 
 Tujuan algoritma: meminimalkan error ini agar Q-value semakin akurat.
 
